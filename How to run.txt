@@ -1,0 +1,7 @@
+Setup Firebase
+
+Create Firebase and Named it with "firebase-auth	
+"
+Create authentication and enable username and password
+
+Create Realtime Database
