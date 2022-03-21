@@ -3,7 +3,7 @@
         @method("PATCH")
     <div class="modal fade" id="{{ 'update' . $item->id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Update INSTA User</h5>
@@ -15,22 +15,20 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="fullname">Full Name</label>
-                                <input type="text" name="fullname" value="{{ $item->fullname }}" class="form-control" id="fullname">
+                                <input type="text" name="fullname" value="{{ $item->fullname }}" class="form-control" id="fullname" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="email_address">Email Address</label>
-                                <input type="email" class="form-control" value="{{ $item->email_address }}" name="email_address" id="email_address">
+                                <input type="email" class="form-control" value="{{ $item->email_address }}" name="email_address" id="email_address" required>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contact_number">Contact Number</label>
-                            <input type="text" class="form-control" value="{{ $item->contact_number }}" name="contact_number" id="contact_number">
-                        </div>
-                        <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="address">Address</label>
-                                <input type="text" class="form-control" value="{{ $item->address }}" name="address" id="address">
-                            </div>
+                            <label for="contact_number">Contact Number</label>
+                            <input type="text" class="form-control" value="{{ $item->contact_number }}" name="contact_number" id="contact_number" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" value="{{ $item->address }}" name="address" id="address" required>
+                        </div>
                         </div>
                 </div>
                 <div class="modal-footer">
