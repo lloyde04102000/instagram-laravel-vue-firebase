@@ -29,7 +29,6 @@ class HomeController extends Controller
     public function index()
     {
         $insta_users = Insta::all();
-        // $insta = Insta::all()->toArray();
         return view('/home', compact('insta_users'));
     }
 
