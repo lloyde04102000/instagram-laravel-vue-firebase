@@ -27,10 +27,23 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <img src="/img/insta-logo.png" class="mr-1" height="35px">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <h1 class="font-weight-bold">INSTA</h1>
-                </a>
+                    <!-- <img src="/img/insta-logo.png" class="mr-1" height="35px">
+                    <a class="navbar-brand" href="{{ url('/') }}">
+                        <h1 class="font-weight-bold">INSTA</h1>
+                    </a> -->
+                    <!-- Image and text -->
+                    <nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            <img src="/img/insta-logo.png" height="30" class="d-inline-block align-top" alt="">
+                            INSTA
+                        </a>
+                    </nav>
+                    <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </nav>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
