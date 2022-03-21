@@ -19387,36 +19387,7 @@ var _hoisted_1 = {
   id: "example"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "row"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-lg-6 mt-4"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "jumbotron"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "display-4"
-}, "Vue JS"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "lead"
-}, "My Future Vue JS Interfaces Will Be Displayed Here Soon!"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "my-4"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "It uses utility classes for typography and spacing to space content out within the larger container."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  "class": "btn btn-primary btn-lg",
-  href: "#",
-  role: "button"
-}, "Learn more")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-lg-6 mt-4"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "card"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "card-header bg-success"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", {
-  "class": "text-white"
-}, "Jollibee")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "card-img-top m-0",
-  src: "/img/jollibee.jpg"
-})])])], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"row\"><div class=\"col-lg-4 mt-4\"><div class=\"card\"><div class=\"card-header bg-success text-white rounded-top\"> Jollibee </div><img class=\"card-img-top m-0\" src=\"/img/jollibee.jpg\"></div></div><div class=\"col-lg-4 mt-4\"><div class=\"card\"><div class=\"card-header bg-success text-white\"> McDonalds </div><img class=\"card-img-top m-0\" src=\"/img/mcdonalds.jpg\"></div></div><div class=\"col-lg-4 mt-4\"><div class=\"card\"><div class=\"card-header bg-success text-white\"> Mang Inasal </div><img class=\"card-img-top m-0\" src=\"/img/mang_inasal.jpg\"></div></div></div>", 1);
 
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache) {
